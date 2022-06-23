@@ -231,8 +231,17 @@ h6 {
   .navbar .dropdown .dropdown ul {
     left: -90%;
   }
+
   .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
+  }
+
+  .show-desktop {
+    display: block;
+  }
+
+  .show-mobile {
+    display: none;
   }
 }
 
@@ -253,6 +262,14 @@ h6 {
 
 @media (max-width: 991px) {
   .mobile-nav-toggle {
+    display: block;
+  }
+
+  .show-desktop {
+    display: none;
+  }
+
+  .show-mobile {
     display: block;
   }
 
@@ -457,6 +474,27 @@ h6 {
   opacity: 1;
   background: #1bbd36;
 }
+
+@media (min-width: 2560px) {
+  .show-desktop {
+    display: block;
+  }
+
+  .show-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 1440px) {
+  .show-desktop {
+    display: block;
+  }
+
+  .show-mobile {
+    display: none;
+  }
+}
+
 @media (min-width: 1024px) {
   #hero .carousel-content {
     width: 60%;
@@ -481,6 +519,13 @@ h6 {
 @media (max-height: 500px) {
   #hero {
     height: 120vh;
+  }
+  .show-desktop {
+    display: none;
+  }
+
+  .show-mobile {
+    display: block;
   }
 }
 

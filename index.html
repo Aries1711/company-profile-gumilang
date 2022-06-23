@@ -54,7 +54,8 @@
             class="img-fluid"
         /></a>
 
-        <nav id="navbar" class="navbar order-last order-lg-0">
+        <!-- navbar start mobile -->
+        <nav id="navbar" class="navbar order-last order-lg-0 show-mobile">
           <ul>
             <li><a href="#" class="active">Home</a></li>
             <li class="dropdown">
@@ -99,6 +100,53 @@
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
         <!-- .navbar -->
+
+        <!-- navbar start desktop -->
+
+        <nav id="navbar" class="navbar order-last order-lg-0 show-desktop">
+          <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li class="dropdown">
+              <a><span>About</span> <i class="bi bi-chevron-down"></i></a>
+              <ul>
+                <li>
+                  <a href="index.html#about-us">About Us</a>
+                </li>
+                <li>
+                  <a href="index.html#team">Our Team</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="index.html#services">Priority</a>
+            </li>
+
+            <li class="dropdown">
+              <a href="index.html#portfolio"
+                ><span>Product</span> <i class="bi bi-chevron-down"></i
+              ></a>
+              <ul>
+                <li><a href="#">Coconut Shell</a></li>
+                <li><a href="#">Coconut Fiber</a></li>
+                <li>
+                  <a href="#">Coconut LeafStick</a>
+                </li>
+                <li><a href="#">Dry Ginger</a></li>
+                <li><a href="#">Tumeric</a></li>
+                <li><a href="#">Tobacco</a></li>
+              </ul>
+            </li>
+            <!-- <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="blog.html">Blog</a></li> -->
+            <li>
+              <a href="index.html#footer">Contact</a>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+
+        <!-- navbar end desktop -->
 
         <div class="header-social-links d-flex">
           <a href="#" class="facebook"><i class="bu bi-whatsapp"></i></a>
@@ -281,7 +329,11 @@
       <!-- End About Us Section -->
 
       <!-- ======= Services Section ======= -->
-      <section id="services" class="services section-bg">
+      <section
+        id="services"
+        class="services section-bg"
+        style="background-color: #c4aa54; color: black !important"
+      >
         <div class="container" data-aos="fade-up">
           <div class="section-title">
             <h2>Our Priority</h2>
@@ -379,7 +431,7 @@
       <section
         id="portfolio"
         class="portfolio"
-        style="background-color: #ebc034"
+        style="background-color: #c4aa54; color: black !important"
       >
         <div class="container">
           <div class="section-title">
